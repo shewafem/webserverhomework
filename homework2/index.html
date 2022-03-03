@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="logo.png" alt="logopolytech">
+            <h1 class="heading">Feedback form</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form class="contact-form" action="https://httpbin.org/post" method="post">
+                <label>Имя пользователя<br><input type="text" name="name" placeholder="Имя"></label><br>
+                <label>Email<br><input type="email" name="email" placeholder="email@gmail.com"></label><br>
+                <br>
+                <label>Тип обращения<br><input type="radio" name="appeal" value="complaint">Жалоба</label><br>
+                <label><input type="radio" name="appeal" value="offer">Предложение</label><br>
+                <label><input type="radio" name="appeal" value="gratitude">Благодарность</label><br>
+                <br>
+                <label>Текст обращения<br><textarea name="message" cols="20" rows="5">Ваще обращение</textarea></label><br>
+                <br>
+                <label>Вариант ответа<br><input type="checkbox" name="answer" value="email">Email</label>
+                <label><br><input type="checkbox" name="answer" value="sms">SMS</label><br>
+                <br>
+                <button class="btn">Отправить</button><br>
+                <br>
+                <a href="getheaders.php">Ссылка на 2 страницу</a>
+            </form>
+        <div>
+    </main>
+    <footer><div class="container"><p class="footer">Собрать сайт из двух страниц.</p></div></footer>
+</body>
+</html>

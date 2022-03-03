@@ -1,0 +1,33 @@
+body,
+html {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.contact-form {
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.logo {
+    width: 500px;
+    position: absolute;
+}
+
+.btn {
+    width: 100px;
+}
