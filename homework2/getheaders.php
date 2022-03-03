@@ -21,7 +21,7 @@
                     $url = 'https://httpbin.org';
                     $answer = get_headers($url);
                 ?>
-                <textarea name="" id="" cols="30" rows="10">
+                <textarea name="" id="" cols="30" rows="30">
                     <?php 
                         print_r($answer);
                     ?>
