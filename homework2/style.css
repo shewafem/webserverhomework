@@ -25,7 +25,7 @@ html {
 
 .logo {
     width: 500px;
-    position: absolute;
+    margin-bottom: -120px;
 }
 
 .btn {

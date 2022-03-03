@@ -10,13 +10,13 @@
 <body>
     <header>
         <div class="container">
-            <img class="logo" src="logo.png" alt="logopolytech">
+            <img class="logo" src="../images/logo.png" alt="logopolytech">
             <h1 class="heading">Feedback form</h1>
         </div>
     </header>
     <main>
         <div class="container">
-            <form>
+            <form class="contact-form">
                 <?php
                     $url = 'https://httpbin.org';
                     $answer = get_headers($url);

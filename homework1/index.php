@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-            <img width="500" style="position: relative; left: 50%; transform: translate(-50%);" src="hgh.png" alt="logo-polytech">
+            <img width="500" style="position: relative; left: 50%; transform: translate(-50%);" src="../images/logo.png" alt="logo-polytech">
     </header> 
     <main>
         <h1 style="text-align: center;">
